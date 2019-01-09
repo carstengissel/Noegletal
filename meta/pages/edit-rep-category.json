@@ -1,0 +1,207 @@
+{
+  "components": [
+    {
+      "type": "content",
+      "container": "main",
+      "components": [
+        {
+          "components": [
+            {
+              "class": "col-md-9",
+              "components": [
+                {
+                  "name": "closeLabel",
+                  "style": {
+                    "fontWeight": "bold"
+                  },
+                  "text": "Item no longer available.",
+                  "type": "label",
+                  "visible": "${!canEdit}"
+                }
+              ],
+              "name": "col0",
+              "type": "col"
+            },
+            {
+              "class": "col-md-3",
+              "components": [
+                {
+                  "buttonStyle": "secondary",
+                  "events": {
+                    "click": [
+                      {
+                        "type": "back"
+                      }
+                    ]
+                  },
+                  "icon": "",
+                  "name": "closeButton",
+                  "style": {
+                    "marginBottom": "20px"
+                  },
+                  "text": "Close",
+                  "type": "button",
+                  "visible": "${!canEdit}"
+                }
+              ],
+              "name": "col1",
+              "type": "col"
+            }
+          ],
+          "name": "row0",
+          "style": {},
+          "type": "row"
+        },
+        {
+          "components": [
+            {
+              "class": "col-md-9",
+              "components": [
+                {
+                  "name": "label0",
+                  "style": {
+                    "fontWeight": "bold"
+                  },
+                  "text": "Another user has made conflicting changes to one or more of the fields you have modified. Please reload.",
+                  "type": "label",
+                  "visible": "${hasChanges}"
+                }
+              ],
+              "name": "col0",
+              "type": "col"
+            },
+            {
+              "class": "col-md-3",
+              "components": [
+                {
+                  "buttonStyle": "secondary",
+                  "events": {
+                    "click": [
+                      {
+                        "code": "this.load()",
+                        "type": "execute"
+                      }
+                    ]
+                  },
+                  "icon": "autorenew",
+                  "name": "button0",
+                  "style": {
+                    "marginBottom": "20px"
+                  },
+                  "text": "Reload",
+                  "type": "button",
+                  "visible": "${hasChanges}"
+                }
+              ],
+              "name": "col1",
+              "type": "col"
+            }
+          ],
+          "name": "row0",
+          "style": {},
+          "type": "row"
+        },
+        {
+          "type": "row",
+          "components": [
+            {
+              "type": "col",
+              "class": "col-md-12",
+              "components": [
+                {
+                  "events": {
+                    "cancel": [
+                      {
+                        "type": "back"
+                      }
+                    ],
+                    "submit": [],
+                    "loadData": []
+                  },
+                  "fields": [
+                    {
+                      "property": "RepCategoryId",
+                      "required": true,
+                      "title": "Rep Category Id",
+                      "type": "integer",
+                      "requiredText": "is required",
+                      "minText": "cannot be less than",
+                      "maxText": "cannot be more than"
+                    },
+                    {
+                      "property": "RepSourceId",
+                      "required": true,
+                      "textProperty": "RepServer",
+                      "title": "Rep Source",
+                      "type": "lookuppopup",
+                      "valueProperty": "RepSourceId",
+                      "placeholder": "Choose RepSource",
+                      "pageSize": "${getRepSourcesPageSize}",
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RepCategoryheader",
+                      "required": true,
+                      "title": "Rep Categoryheader",
+                      "type": "string",
+                      "maxLength": 100,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RepCategorySubHeader",
+                      "required": true,
+                      "title": "Rep Category Sub Header",
+                      "type": "string",
+                      "maxLength": 300,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RegInit",
+                      "required": true,
+                      "title": "Reg Init",
+                      "type": "string",
+                      "maxLength": 12,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RegTid",
+                      "required": true,
+                      "title": "Reg Tid",
+                      "type": "date",
+                      "requiredText": "is required"
+                    }
+                  ],
+                  "name": "form0",
+                  "type": "form",
+                  "visible": "${canEdit}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": {
+    "load": [
+      {
+        "name": "hasChanges",
+        "type": "set",
+        "value": "false"
+      },
+      {
+        "name": "canEdit",
+        "type": "set",
+        "value": "true"
+      },
+      {
+        "name": "getRepSourcesPageSize",
+        "type": "set",
+        "value": "10"
+      }
+    ]
+  },
+  "name": "Edit Rep Category",
+  "layout": "Main",
+  "access": []
+}

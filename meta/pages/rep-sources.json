@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "type": "content",
+      "container": "main",
+      "components": [
+        {
+          "type": "heading",
+          "name": "pageTitle",
+          "size": "H1",
+          "text": "Rep Sources"
+        },
+        {
+          "type": "row",
+          "components": [
+            {
+              "type": "col",
+              "class": "col-md-12",
+              "components": [
+                {
+                  "name": "grid0",
+                  "allowDelete": true,
+                  "allowAdd": true,
+                  "allowFiltering": true,
+                  "allowMultiSorting": false,
+                  "allowPaging": true,
+                  "allowSorting": true,
+                  "events": {
+                    "loadData": [],
+                    "delete": [],
+                    "add": [
+                      {
+                        "path": "add-rep-source",
+                        "type": "popup"
+                      }
+                    ],
+                    "rowSelect": [
+                      {
+                        "parameters": [
+                          {
+                            "name": "RepSourceId",
+                            "value": "${event.RepSourceId}"
+                          }
+                        ],
+                        "path": "edit-rep-source",
+                        "type": "popup"
+                      }
+                    ]
+                  },
+                  "title": "",
+                  "columns": [
+                    {
+                      "property": "RepSourceId",
+                      "title": "Rep Source Id",
+                      "type": "integer"
+                    },
+                    {
+                      "property": "RepServer",
+                      "title": "Rep Server",
+                      "type": "string"
+                    },
+                    {
+                      "property": "RepDatabase",
+                      "title": "Rep Database",
+                      "type": "string"
+                    },
+                    {
+                      "property": "RepCubeName",
+                      "title": "Rep Cube Name",
+                      "type": "string"
+                    },
+                    {
+                      "property": "RegInit",
+                      "title": "Reg Init",
+                      "type": "string"
+                    },
+                    {
+                      "format": "date-time",
+                      "property": "RegTid",
+                      "template": "${data.RegTid | utcDate}",
+                      "title": "Reg Tid",
+                      "type": "string"
+                    }
+                  ],
+                  "type": "grid",
+                  "emptyText": "No records to display.",
+                  "addText": "Add"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": {
+    "load": []
+  },
+  "name": "Rep Sources",
+  "layout": "Main",
+  "access": []
+}

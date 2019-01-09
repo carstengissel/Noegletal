@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "type": "content",
+      "container": "main",
+      "components": [
+        {
+          "type": "row",
+          "components": [
+            {
+              "type": "col",
+              "class": "col-md-12",
+              "components": [
+                {
+                  "data": "",
+                  "events": {
+                    "cancel": [
+                      {
+                        "type": "back"
+                      }
+                    ],
+                    "submit": [],
+                    "loadData": []
+                  },
+                  "fields": [
+                    {
+                      "property": "RepServer",
+                      "required": true,
+                      "title": "Rep Server",
+                      "type": "string",
+                      "maxLength": 50,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RepDatabase",
+                      "required": true,
+                      "title": "Rep Database",
+                      "type": "string",
+                      "maxLength": 50,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RepCubeName",
+                      "required": true,
+                      "title": "Rep Cube Name",
+                      "type": "string",
+                      "maxLength": 50,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RegInit",
+                      "required": true,
+                      "title": "Reg Init",
+                      "type": "string",
+                      "maxLength": 12,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RegTid",
+                      "required": true,
+                      "title": "Reg Tid",
+                      "type": "date",
+                      "requiredText": "is required"
+                    }
+                  ],
+                  "name": "form0",
+                  "type": "form"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": {
+    "load": []
+  },
+  "name": "Add Rep Source",
+  "layout": "Main",
+  "access": []
+}

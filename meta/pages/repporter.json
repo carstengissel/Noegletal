@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "type": "content",
+      "container": "main",
+      "components": [
+        {
+          "type": "heading",
+          "name": "pageTitle",
+          "size": "H1",
+          "text": "Reports"
+        },
+        {
+          "type": "row",
+          "components": [
+            {
+              "type": "col",
+              "class": "col-md-12",
+              "components": [
+                {
+                  "name": "grid0",
+                  "allowDelete": true,
+                  "allowAdd": true,
+                  "allowFiltering": true,
+                  "allowMultiSorting": false,
+                  "allowPaging": true,
+                  "allowSorting": true,
+                  "events": {
+                    "loadData": [],
+                    "delete": [],
+                    "add": [
+                      {
+                        "path": "add-report",
+                        "type": "popup"
+                      }
+                    ],
+                    "rowSelect": [
+                      {
+                        "parameters": [
+                          {
+                            "name": "RepID",
+                            "value": "${event.RepID}"
+                          }
+                        ],
+                        "path": "edit-report",
+                        "type": "popup"
+                      }
+                    ]
+                  },
+                  "title": "",
+                  "columns": [
+                    {
+                      "property": "RepID",
+                      "title": "Rep ID",
+                      "type": "integer"
+                    },
+                    {
+                      "property": "RepSourceId",
+                      "sortProperty": "RepSource.RepServer",
+                      "filterProperty": "RepSource.RepServer",
+                      "template": "${data.RepSource?.RepServer}",
+                      "title": "Rep Source",
+                      "type": "string"
+                    },
+                    {
+                      "property": "Category",
+                      "title": "Category",
+                      "type": "string"
+                    },
+                    {
+                      "property": "RepName",
+                      "title": "Rep Name",
+                      "type": "string"
+                    },
+                    {
+                      "property": "RepCaption",
+                      "title": "Rep Caption",
+                      "type": "string"
+                    },
+                    {
+                      "property": "RepText",
+                      "title": "Rep Text",
+                      "type": "string"
+                    },
+                    {
+                      "property": "RepDef",
+                      "title": "Rep Def",
+                      "type": "string"
+                    },
+                    {
+                      "property": "ReportDescription",
+                      "title": "Report Description",
+                      "type": "string"
+                    },
+                    {
+                      "property": "RepOwner",
+                      "title": "Rep Owner",
+                      "type": "string"
+                    },
+                    {
+                      "property": "RegInit",
+                      "title": "Reg Init",
+                      "type": "string"
+                    },
+                    {
+                      "format": "date-time",
+                      "property": "RegTid",
+                      "template": "${data.RegTid | utcDate}",
+                      "title": "Reg Tid",
+                      "type": "string"
+                    }
+                  ],
+                  "type": "grid",
+                  "emptyText": "No records to display.",
+                  "addText": "Add"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": {
+    "load": []
+  },
+  "name": "Repporter",
+  "layout": "Main",
+  "access": []
+}

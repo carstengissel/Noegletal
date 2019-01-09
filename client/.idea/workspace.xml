@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a4bfbf4-2ecb-4f70-a926-88d744bc9b37" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/dist/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="client" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/send-rapport/send-rapport.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/noegletal-rest-api.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/forespoergelse-ssrs/forespoergelse-ssrs-generated.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="98" column="39" lean-forward="true" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
+              <folding>
+                <element signature="e#130#235#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/powerbi-report/powerbi-report.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="305" column="84" selection-start-line="305" selection-start-column="84" selection-end-line="305" selection-end-column="84" />
+              <folding>
+                <element signature="e#0#137#0" expanded="true" />
+                <element signature="e#251#324#0" expanded="true" />
+                <element signature="e#1400#1456#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/powerbi-report/powerbi-report.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="65" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/powerbi-report/report.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2852">
+              <caret line="140" column="54" selection-start-line="140" selection-start-column="40" selection-end-line="140" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/report-ssrs/report-ssrs.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/main-layout/main-layout.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/main-layout/main-layout.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dataSelected</find>
+      <find>?</find>
+      <find>that</find>
+      <find>setupReportTotal</find>
+      <find>showreportto</find>
+      <find>reportservice</find>
+      <find>refresh</find>
+      <find>deleteAndRefreshReport</find>
+      <find>buttonSletClick</find>
+      <find>slet rapport?</find>
+      <find>IReport</find>
+      <find>delete</find>
+      <find>save</find>
+      <find>999999save</find>
+      <find>saved</find>
+      <find>powerbi</find>
+      <find>ireport</find>
+      <find>noegle</find>
+      <find>report</find>
+      <find>getuser</find>
+      <find>slet</find>
+      <find>Injector</find>
+      <find>getNoegleTalReportsCount</find>
+      <find>ssrsviewer0</find>
+      <find>getNoegleTalReportsResult</find>
+      <find>showReport</find>
+      <find>GetEmbedConfigTotal</find>
+      <find>model</find>
+      <find>userReports</find>
+      <find>this.powerbiTotal</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>reportcontaainerTotal</replace>
+      <replace>showReportTotal</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/slet/slet.component.html" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/send-rapport/send-rapport.component.html" />
+        <option value="$PROJECT_DIR$/node_modules/powerbi-client/dist/powerbi-client.d.ts" />
+        <option value="$PROJECT_DIR$/src/app/embed.ts" />
+        <option value="$PROJECT_DIR$/src/app/forespoergelse/forespoergelse-generated.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/main-layout/main-layout.component.html" />
+        <option value="$PROJECT_DIR$/src/app/forespoergelse/forespoergelse.component.html" />
+        <option value="$PROJECT_DIR$/src/app/forside-cards/forside-cards.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/forside-cards/forside-cards-generated.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.module-generated.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.routes.ts" />
+        <option value="$PROJECT_DIR$/src/app/gem-rapport/gem-rapport-generated.component.ts" />
+        <option value="$PROJECT_DIR$/src/styles.css" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/app/noegle-tal.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/forespoergelse/forespoergelse.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/powerbi-report/report.ts" />
+        <option value="$PROJECT_DIR$/src/app/noegle-tal.model.ts" />
+        <option value="$PROJECT_DIR$/src/app/send-rapport/send-rapport.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/gem-rapport/gem-rapport.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/send-rapport/send-rapport-generated.component.ts" />
+        <option value="$PROJECT_DIR$/src/assets/css/default.css" />
+        <option value="$PROJECT_DIR$/src/app/noegletal-rest-api.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/report-ssrs/report-ssrs.component.html" />
+        <option value="$PROJECT_DIR$/src/app/forespoergelse-ssrs/forespoergelse-ssrs.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/forespoergelse-ssrs/forespoergelse-ssrs-generated.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/powerbi-report/report.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/report-ssrs/report-ssrs.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/report-ssrs/report-ssrs-generated.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/forespoergelse-ssrs/forespoergelse-ssrs.component.html" />
+        <option value="$PROJECT_DIR$/src/app/powerbi-report/powerbi-report.component.html" />
+        <option value="$PROJECT_DIR$/src/app/powerbi-report/powerbi-report.component.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSPotentiallyInvalidUsageOfClassThis</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="forespoergelse-ssrs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="main-layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="powerbi-report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="report-ssrs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="send-rapport" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="E:\work\RadNoegletal\Noegletal\client\node_modules\tslint" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="D:\work\RadNoegletal\Noegletal\client\node_modules\typescript\lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="npm.Angular CLI Server" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a4bfbf4-2ecb-4f70-a926-88d744bc9b37" name="Default Changelist" comment="" />
+      <created>1537970278641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537970278641</updated>
+      <workItem from="1537970280107" duration="17406000" />
+      <workItem from="1538243301689" duration="1082000" />
+      <workItem from="1538642193125" duration="645000" />
+      <workItem from="1538669569338" duration="12808000" />
+      <workItem from="1538715789647" duration="15406000" />
+      <workItem from="1538991089850" duration="57364000" />
+      <workItem from="1539507607012" duration="1084000" />
+      <workItem from="1539514246919" duration="599000" />
+      <workItem from="1539590620015" duration="9780000" />
+      <workItem from="1539627019078" duration="1749000" />
+      <workItem from="1539695134160" duration="178000" />
+      <workItem from="1539695343075" duration="20622000" />
+      <workItem from="1539860209526" duration="12101000" />
+      <workItem from="1539937464395" duration="11534000" />
+      <workItem from="1539988269094" duration="232000" />
+      <workItem from="1539988699064" duration="17000" />
+      <workItem from="1539988735400" duration="2997000" />
+      <workItem from="1539991892489" duration="151000" />
+      <workItem from="1540202512916" duration="6514000" />
+      <workItem from="1540213936943" duration="4051000" />
+      <workItem from="1540295407452" duration="5214000" />
+      <workItem from="1540302570899" duration="17300000" />
+      <workItem from="1540981424671" duration="541000" />
+      <workItem from="1541016759753" duration="1007000" />
+      <workItem from="1541155229223" duration="76000" />
+      <workItem from="1541169165803" duration="1854000" />
+      <workItem from="1541175856552" duration="12630000" />
+      <workItem from="1541233272602" duration="12984000" />
+      <workItem from="1541250932233" duration="4839000" />
+      <workItem from="1541276742856" duration="3238000" />
+      <workItem from="1541280142552" duration="10798000" />
+      <workItem from="1541322395589" duration="2730000" />
+      <workItem from="1541327093360" duration="9237000" />
+      <workItem from="1541366352713" duration="884000" />
+      <workItem from="1541414778302" duration="2110000" />
+      <workItem from="1541416940349" duration="7766000" />
+      <workItem from="1541425710668" duration="1980000" />
+      <workItem from="1541500774744" duration="17071000" />
+      <workItem from="1541521849984" duration="4869000" />
+      <workItem from="1541538273221" duration="2942000" />
+      <workItem from="1541578400882" duration="2209000" />
+      <workItem from="1541681794216" duration="717000" />
+      <workItem from="1541684105019" duration="917000" />
+      <workItem from="1541697036765" duration="1592000" />
+      <workItem from="1542275680603" duration="13365000" />
+      <workItem from="1542991052772" duration="26312000" />
+      <workItem from="1543158358930" duration="7069000" />
+      <workItem from="1543226396675" duration="7968000" />
+      <workItem from="1543247685209" duration="8166000" />
+      <workItem from="1543311914726" duration="11083000" />
+      <workItem from="1543328744389" duration="23613000" />
+      <workItem from="1543420839826" duration="11991000" />
+      <workItem from="1543493377570" duration="4537000" />
+      <workItem from="1543522507081" duration="1918000" />
+      <workItem from="1543526485486" duration="15000" />
+      <workItem from="1543576974388" duration="5037000" />
+      <workItem from="1543607127060" duration="9704000" />
+      <workItem from="1543667362318" duration="8658000" />
+      <workItem from="1543765553828" duration="6626000" />
+      <workItem from="1543782035690" duration="6357000" />
+      <workItem from="1543835574545" duration="19450000" />
+      <workItem from="1543931760359" duration="1579000" />
+      <workItem from="1544031370559" duration="4417000" />
+      <workItem from="1544053739118" duration="592000" />
+      <workItem from="1544219079517" duration="4864000" />
+      <workItem from="1544225418931" duration="6120000" />
+      <workItem from="1544263735857" duration="8336000" />
+      <workItem from="1544288432336" duration="17644000" />
+      <workItem from="1544372526635" duration="1862000" />
+      <workItem from="1544469909232" duration="17218000" />
+      <workItem from="1544519555204" duration="4096000" />
+      <workItem from="1544613217630" duration="6084000" />
+      <workItem from="1544696199675" duration="1218000" />
+      <workItem from="1545047460547" duration="2823000" />
+      <workItem from="1545132324841" duration="38520000" />
+      <workItem from="1545520753345" duration="1219000" />
+      <workItem from="1546116855930" duration="7388000" />
+      <workItem from="1546192774064" duration="6634000" />
+      <workItem from="1546555923071" duration="1325000" />
+      <workItem from="1546870248998" duration="759000" />
+      <workItem from="1546885240370" duration="2643000" />
+      <workItem from="1546956449167" duration="6440000" />
+      <workItem from="1547026927106" duration="2833000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="618308000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984472" visible="true" weight="0.18967333" />
+      <window_info id="Structure" order="1" sideWeight="0.5015528" side_tool="true" weight="0.18967333" />
+      <window_info id="npm" order="2" sideWeight="0.5015528" side_tool="true" weight="0.18967333" />
+      <window_info id="Favorites" order="3" sideWeight="0.5015528" side_tool="true" weight="0.18967333" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49413645" weight="0.2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.32576618" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947312" weight="0.39954597" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3275862" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32988507" />
+      <window_info anchor="bottom" id="TypeScript" order="9" sideWeight="0.49578503" weight="0.3264368" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5165245" side_tool="true" weight="0.22133939" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.48347548" weight="0.25977013" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" visible="true" weight="0.32988507" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/noegle-tal.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/noegle-tal.model.js.map" />
+        <option value="$PROJECT_DIR$/src/app/security.service.js" />
+        <option value="$PROJECT_DIR$/src/app/cache.interceptor.js.map" />
+        <option value="$PROJECT_DIR$/src/app/security.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/noegle-tal.service.js" />
+        <option value="$PROJECT_DIR$/src/app/app.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/app.component.js" />
+        <option value="$PROJECT_DIR$/src/app/odata-client.js.map" />
+        <option value="$PROJECT_DIR$/src/app/config.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/auth.guard.js" />
+        <option value="$PROJECT_DIR$/src/app/noegle-tal.model.js" />
+        <option value="$PROJECT_DIR$/src/app/app.module.js" />
+        <option value="$PROJECT_DIR$/src/app/security.interceptor.js.map" />
+        <option value="$PROJECT_DIR$/src/app/auth.guard.js.map" />
+        <option value="$PROJECT_DIR$/src/app/security.interceptor.js" />
+        <option value="$PROJECT_DIR$/src/app/odata-client.js" />
+        <option value="$PROJECT_DIR$/src/environments/environment.prod.js" />
+        <option value="$PROJECT_DIR$/src/app/login-layout/login-layout.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/login-layout/login-layout.component.js" />
+        <option value="$PROJECT_DIR$/src/app/add-rep-param/add-rep-param-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/login-layout/login-layout-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/login-layout/login-layout-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/add-rep-param/add-rep-param-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/config.service.js" />
+        <option value="$PROJECT_DIR$/src/app/app.module-generated.js" />
+        <option value="$PROJECT_DIR$/src/environments/environment.js.map" />
+        <option value="$PROJECT_DIR$/src/app/app.module-generated.js.map" />
+        <option value="$PROJECT_DIR$/src/environments/environment.js" />
+        <option value="$PROJECT_DIR$/src/environments/environment.prod.js.map" />
+        <option value="$PROJECT_DIR$/src/app/send/send.component.js" />
+        <option value="$PROJECT_DIR$/src/app/send/send.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/forespoergelse/forespoergelse-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/forespoergelse/forespoergelse.component.js" />
+        <option value="$PROJECT_DIR$/src/app/forespoergelse/forespoergelse.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/edit-rep-category/edit-rep-category-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/edit-rep-category/edit-rep-category.component.js" />
+        <option value="$PROJECT_DIR$/src/app/forespoergelse/forespoergelse-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/edit-rep-param/edit-rep-param.component.js" />
+        <option value="$PROJECT_DIR$/src/app/add-rep-param/add-rep-param.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/edit-rep-source/edit-rep-source-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/edit-rep-source/edit-rep-source.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/add-rep-param/add-rep-param.component.js" />
+        <option value="$PROJECT_DIR$/src/app/edit-rep-source/edit-rep-source.component.js" />
+        <option value="$PROJECT_DIR$/src/app/edit-rep-source/edit-rep-source-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/noegletal-rest-api.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/edit-rep-param/edit-rep-param-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/noegletal-rest-api.model.js.map" />
+        <option value="$PROJECT_DIR$/src/app/rep-sources/rep-sources.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/rep-sources/rep-sources.component.js" />
+        <option value="$PROJECT_DIR$/src/app/noegletal-rest-api.model.js" />
+        <option value="$PROJECT_DIR$/src/app/edit-report/edit-report-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/edit-rep-category-item/edit-rep-category-item.component.js" />
+        <option value="$PROJECT_DIR$/src/app/rep-sources/rep-sources-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/edit-report/edit-report.component.js" />
+        <option value="$PROJECT_DIR$/src/app/edit-rep-param/edit-rep-param.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/edit-rep-category/edit-rep-category-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/edit-rep-param/edit-rep-param-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/edit-rep-category/edit-rep-category.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/edit-rep-category-item/edit-rep-category-item-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/noegletal-rest-api.service.js" />
+        <option value="$PROJECT_DIR$/src/app/edit-rep-category-item/edit-rep-category-item-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/edit-report/edit-report-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/add-rep-category-item/add-rep-category-item-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/add-rep-category-item/add-rep-category-item.component.js" />
+        <option value="$PROJECT_DIR$/src/app/main-layout/main-layout.component.js" />
+        <option value="$PROJECT_DIR$/src/app/main-layout/main-layout-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/edit-report/edit-report.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/add-rep-category-item/add-rep-category-item-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/edit-rep-category-item/edit-rep-category-item.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/rep-sources/rep-sources-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/add-rep-category-item/add-rep-category-item.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/main-layout/main-layout-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/repport-kategorier/repport-kategorier.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/gem-rapport/gem-rapport-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/gem-rapport/gem-rapport-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/forside/forside-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/forside/forside.component.js" />
+        <option value="$PROJECT_DIR$/src/app/send-rapport/send-rapport-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/forside/forside-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/repport-kategorier/repport-kategorier-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/repport-kategorier/repport-kategorier-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/gem-rapport/gem-rapport.component.js" />
+        <option value="$PROJECT_DIR$/src/app/repport-kategorier/repport-kategorier.component.js" />
+        <option value="$PROJECT_DIR$/src/app/send-rapport/send-rapport.component.js" />
+        <option value="$PROJECT_DIR$/src/app/repporter/repporter-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/embed.js" />
+        <option value="$PROJECT_DIR$/src/app/powerbi-report/report.service.js" />
+        <option value="$PROJECT_DIR$/src/app/powerbi-report/report.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/powerbi-report/report.js.map" />
+        <option value="$PROJECT_DIR$/src/app/embed.js.map" />
+        <option value="$PROJECT_DIR$/src/app/gem-rapport/gem-rapport.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/send-rapport/send-rapport.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/repporter/repporter-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/forside/forside.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/send-rapport/send-rapport-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/repporter/repporter.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/add-rep-source/add-rep-source.component.js" />
+        <option value="$PROJECT_DIR$/src/app/add-report/add-report.component.js" />
+        <option value="$PROJECT_DIR$/src/app/add-report/add-report-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/add-report/add-report-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/send/send-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/send/send-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/main-layout/main-layout.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/repporter/repporter.component.js" />
+        <option value="$PROJECT_DIR$/src/app/powerbi-report/report.js" />
+        <option value="$PROJECT_DIR$/src/app/add-rep-source/add-rep-source.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/add-rep-source/add-rep-source-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/add-rep-source/add-rep-source-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/rep-category-items/rep-category-items.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/rep-category-items/rep-category-items.component.js" />
+        <option value="$PROJECT_DIR$/src/app/add-rep-category/add-rep-category-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/testy/testy-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/add-rep-category/add-rep-category.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/testy/testy-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/rep-category-items/rep-category-items-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/add-rep-category/add-rep-category.component.js" />
+        <option value="$PROJECT_DIR$/src/app/add-rep-category/add-rep-category-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/add-report/add-report.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/rep-params/rep-params-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/rep-params/rep-params-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/rep-category-items/rep-category-items-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/testy/testy.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/rep-params/rep-params.component.js" />
+        <option value="$PROJECT_DIR$/src/app/testy/testy.component.js" />
+        <option value="$PROJECT_DIR$/src/app/rep-params/rep-params.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/gem-som/gem-som-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/cache.interceptor.js" />
+        <option value="$PROJECT_DIR$/src/app/test-side/test-side.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/test-side/test-side-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/test-side/test-side-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/app.routes.js" />
+        <option value="$PROJECT_DIR$/src/main.js.map" />
+        <option value="$PROJECT_DIR$/src/app/gem-som/gem-som.component.js" />
+        <option value="$PROJECT_DIR$/src/app/gem-som/gem-som-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/powerbi-report/powerbi-report.component.js" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/app/gem-som/gem-som.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/powerbi-report/powerbi-report.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/dummy/dummy.component.js" />
+        <option value="$PROJECT_DIR$/src/app/dummy/dummy-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/forside-cards/forside-cards-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/forside-cards/forside-cards.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/forside-cards/forside-cards-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/forespoergelse-ssrs/forespoergelse-ssrs-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/forespoergelse-ssrs/forespoergelse-ssrs.component.js" />
+        <option value="$PROJECT_DIR$/src/app/test-side/test-side.component.js" />
+        <option value="$PROJECT_DIR$/src/app/app.component.js.map" />
+        <option value="$PROJECT_DIR$/src/polyfills.js" />
+        <option value="$PROJECT_DIR$/src/app/app.routes.js.map" />
+        <option value="$PROJECT_DIR$/src/polyfills.js.map" />
+        <option value="$PROJECT_DIR$/src/app/dummy/dummy.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/dummy/dummy-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/report-ssrs/report-ssrs.component.js" />
+        <option value="$PROJECT_DIR$/src/app/reports/reports.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/reports/reports-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/reports/reports.component.js" />
+        <option value="$PROJECT_DIR$/src/app/reports/reports-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/forside-cards/forside-cards.component.js" />
+        <option value="$PROJECT_DIR$/src/app/forespoergelse-ssrs/forespoergelse-ssrs.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/forespoergelse-ssrs/forespoergelse-ssrs-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/report-ssrs/report-ssrs-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/report-ssrs/report-ssrs.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/report-ssrs/report-ssrs-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/slet-rapport/slet-rapport-generated.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/slet-rapport/slet-rapport.component.js" />
+        <option value="$PROJECT_DIR$/src/app/slet-rapport/slet-rapport-generated.component.js" />
+        <option value="$PROJECT_DIR$/src/app/slet-rapport/slet-rapport.component.js.map" />
+      </list>
+    </option>
+    <option name="includedJSSourcePackages">
+      <set>
+        <option value="@radzen/angular" />
+      </set>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/powerbi-report/powerbi-report.component.ts</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/edit-rep-category-item/edit-rep-category-item.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/rep-category-items/rep-category-items.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/testy/testy.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/testy/testy-generated.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/odata-client.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/noegletal-rest-api.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/powerbi-client/dist/powerbi-client.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="271" column="48" lean-forward="true" selection-start-line="271" selection-start-column="48" selection-end-line="271" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/powerbi-models/dist/models.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5405">
+          <caret line="235" column="20" selection-start-line="235" selection-start-column="20" selection-end-line="235" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/slet-rapport/slet-rapport.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/slet-rapport/slet-rapport.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="146" column="24" selection-start-line="146" selection-start-column="24" selection-end-line="146" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="10317" column="73" selection-start-line="10317" selection-start-column="73" selection-end-line="10317" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/forespoergelse/forespoergelse-generated.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1771">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/forespoergelse/forespoergelse.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/forespoergelse/forespoergelse.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/embed.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/powerbi-report/report.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="23" selection-start-line="1" selection-start-column="3" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.module-generated.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/noegle-tal.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/gem-rapport/gem-rapport.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/forespoergelse-ssrs/forespoergelse-ssrs-generated.component.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/forespoergelse-ssrs/forespoergelse-ssrs-generated.component.js.map">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159091">
+          <caret line="6917" selection-start-line="6917" selection-end-line="6917" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/core/src/di/injector.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@radzen/angular/dist/ssrsviewer.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/noegle-tal.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/repporter/reports-generated.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/forespoergelse-ssrs/forespoergelse-ssrs.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/forespoergelse-ssrs/forespoergelse-ssrs.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#0;n#div#0;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="e#1757#1763#0" expanded="true" />
+            <element signature="e#1783#1789#0" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#0;n#div#0;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#1;n#p#0;n#div#0;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="e#1974#1980#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#0;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#0;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#1;n#p#0;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#p#0;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#2;n#p#0;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="e#2769#2775#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#1;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="e#2939#2947#0" expanded="true" />
+            <element signature="e#2972#2980#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#2;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#2;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="e#3241#3248#0" expanded="true" />
+            <element signature="e#3272#3279#0" expanded="true" />
+            <element signature="e#3283#3291#0" expanded="true" />
+            <element signature="e#3442#3449#0" expanded="true" />
+            <element signature="e#3599#3606#0" expanded="true" />
+            <element signature="e#3610#3618#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#3;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#3;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="e#3922#3929#0" expanded="true" />
+            <element signature="e#3933#3941#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#4;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#4;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="e#4165#4173#0" expanded="true" />
+            <element signature="e#4218#4226#0" expanded="true" />
+            <element signature="e#4289#4297#0" expanded="true" />
+            <element signature="e#4306#4313#0" expanded="true" />
+            <element signature="e#4335#4342#0" expanded="true" />
+            <element signature="e#4361#4368#0" expanded="true" />
+            <element signature="e#4397#4405#0" expanded="true" />
+            <element signature="e#4422#4430#0" expanded="true" />
+            <element signature="e#4438#4445#0" expanded="true" />
+            <element signature="e#4509#4516#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#5;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#5;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="e#4711#4719#0" expanded="true" />
+            <element signature="e#4752#4759#0" expanded="true" />
+            <element signature="e#4806#4813#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#6;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#6;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="e#5050#5058#0" expanded="true" />
+            <element signature="e#5066#5073#0" expanded="true" />
+            <element signature="e#5081#5088#0" expanded="true" />
+            <element signature="e#5121#5128#0" expanded="true" />
+            <element signature="e#5149#5156#0" expanded="true" />
+            <element signature="e#5159#5166#0" expanded="true" />
+            <element signature="e#5193#5200#0" expanded="true" />
+            <element signature="e#5211#5218#0" expanded="true" />
+            <element signature="e#5310#5317#0" expanded="true" />
+            <element signature="e#5339#5346#0" expanded="true" />
+            <element signature="e#5347#5354#0" expanded="true" />
+            <element signature="e#5391#5397#0" expanded="true" />
+            <element signature="e#5411#5418#0" expanded="true" />
+            <element signature="e#5464#5471#0" expanded="true" />
+            <element signature="e#5474#5481#0" expanded="true" />
+            <element signature="e#5488#5495#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#7;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#7;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="e#5711#5718#0" expanded="true" />
+            <element signature="e#5765#5772#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#8;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#8;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="e#6015#6023#0" expanded="true" />
+            <element signature="e#6046#6052#0" expanded="true" />
+            <element signature="e#6057#6065#0" expanded="true" />
+            <element signature="e#6073#6080#0" expanded="true" />
+            <element signature="e#6128#6135#0" expanded="true" />
+            <element signature="e#6141#6148#0" expanded="true" />
+            <element signature="e#6155#6162#0" expanded="true" />
+            <element signature="e#6190#6198#0" expanded="true" />
+            <element signature="e#6208#6216#0" expanded="true" />
+            <element signature="e#6249#6256#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="e#6525#6532#0" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#1;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#2;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#3;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="e#7019#7026#0" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#4;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#5;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#5;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="e#7328#7336#0" expanded="true" />
+            <element signature="n#style#0;n#span#6;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#6;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#7;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#7;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#8;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#8;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="e#7861#7867#0" expanded="true" />
+            <element signature="e#7887#7895#0" expanded="true" />
+            <element signature="n#style#0;n#span#9;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#9;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="e#8011#8017#1" expanded="true" />
+            <element signature="n#style#0;n#span#10;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#10;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#11;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#11;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#12;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#12;n#p#9;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#10;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#10;n#rz-html#0;n#rz-tabs-item#1;n#rz-tabs#0;n#div#0;n#div#0;n#rz-content#0;n#!!top" expanded="true" />
+            <element signature="e#8833#8839#0" expanded="true" />
+            <element signature="e#8845#8851#0" expanded="true" />
+            <element signature="e#8866#8873#0" expanded="true" />
+            <element signature="e#8882#8889#0" expanded="true" />
+            <element signature="e#8897#8904#0" expanded="true" />
+            <element signature="e#9073#9080#0" expanded="true" />
+            <element signature="e#9089#9096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/powerbi-report/powerbi-report.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/environments/environment.prod.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/report-ssrs/report-ssrs.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/report-ssrs/report-ssrs-generated.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2461">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/send-rapport/send-rapport.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/send-rapport/send-rapport-generated.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2231">
+          <caret line="114" column="32" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/send-rapport/send-rapport.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/noegletal-rest-api.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/powerbi-report/powerbi-report.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/powerbi-report/report.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2852">
+          <caret line="140" column="54" selection-start-line="140" selection-start-column="40" selection-end-line="140" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/report-ssrs/report-ssrs.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/main-layout/main-layout.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/main-layout/main-layout.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/powerbi-report/powerbi-report.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="305" column="84" selection-start-line="305" selection-start-column="84" selection-end-line="305" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#137#0" expanded="true" />
+            <element signature="e#251#324#0" expanded="true" />
+            <element signature="e#1400#1456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/forespoergelse-ssrs/forespoergelse-ssrs-generated.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="98" column="39" lean-forward="true" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
+          <folding>
+            <element signature="e#130#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

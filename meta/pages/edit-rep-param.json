@@ -1,0 +1,199 @@
+{
+  "access": [],
+  "components": [
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "class": "col-md-9",
+              "components": [
+                {
+                  "name": "closeLabel",
+                  "style": {
+                    "fontWeight": "bold"
+                  },
+                  "text": "Item no longer available.",
+                  "type": "label",
+                  "visible": "${!canEdit}"
+                }
+              ],
+              "name": "col0",
+              "type": "col"
+            },
+            {
+              "class": "col-md-3",
+              "components": [
+                {
+                  "buttonStyle": "secondary",
+                  "events": {
+                    "click": [
+                      {
+                        "type": "back"
+                      }
+                    ]
+                  },
+                  "icon": "",
+                  "name": "closeButton",
+                  "style": {
+                    "marginBottom": "20px"
+                  },
+                  "text": "Close",
+                  "type": "button",
+                  "visible": "${!canEdit}"
+                }
+              ],
+              "name": "col1",
+              "type": "col"
+            }
+          ],
+          "name": "row0",
+          "style": {},
+          "type": "row"
+        },
+        {
+          "components": [
+            {
+              "class": "col-md-9",
+              "components": [
+                {
+                  "name": "label0",
+                  "style": {
+                    "fontWeight": "bold"
+                  },
+                  "text": "Another user has made conflicting changes to one or more of the fields you have modified. Please reload.",
+                  "type": "label",
+                  "visible": "${hasChanges}"
+                }
+              ],
+              "name": "col0",
+              "type": "col"
+            },
+            {
+              "class": "col-md-3",
+              "components": [
+                {
+                  "buttonStyle": "secondary",
+                  "events": {
+                    "click": [
+                      {
+                        "code": "this.load()",
+                        "type": "execute"
+                      }
+                    ]
+                  },
+                  "icon": "autorenew",
+                  "name": "button0",
+                  "style": {
+                    "marginBottom": "20px"
+                  },
+                  "text": "Reload",
+                  "type": "button",
+                  "visible": "${hasChanges}"
+                }
+              ],
+              "name": "col1",
+              "type": "col"
+            }
+          ],
+          "name": "row0",
+          "style": {},
+          "type": "row"
+        },
+        {
+          "components": [
+            {
+              "class": "col-md-12",
+              "components": [
+                {
+                  "events": {
+                    "cancel": [
+                      {
+                        "type": "back"
+                      }
+                    ],
+                    "loadData": [],
+                    "submit": []
+                  },
+                  "fields": [
+                    {
+                      "pageSize": "${getReportsPageSize}",
+                      "placeholder": "Choose Report",
+                      "property": "RepId",
+                      "required": true,
+                      "requiredText": "is required",
+                      "textProperty": "Category",
+                      "title": "Report",
+                      "type": "lookuppopup",
+                      "valueProperty": "RepID"
+                    },
+                    {
+                      "property": "ParamId",
+                      "required": true,
+                      "requiredText": "is required",
+                      "title": "Param Id",
+                      "type": "integer",
+                      "minText": "cannot be less than",
+                      "maxText": "cannot be more than"
+                    },
+                    {
+                      "maxLength": 1,
+                      "property": "ParamSelect",
+                      "required": false,
+                      "requiredText": "is required",
+                      "title": "Param Select",
+                      "type": "string"
+                    },
+                    {
+                      "maxLength": 12,
+                      "property": "RegInit",
+                      "required": true,
+                      "requiredText": "is required",
+                      "title": "Reg Init",
+                      "type": "string"
+                    },
+                    {
+                      "property": "RegTid",
+                      "required": true,
+                      "requiredText": "is required",
+                      "title": "Reg Tid",
+                      "type": "date"
+                    }
+                  ],
+                  "name": "form0",
+                  "type": "form",
+                  "visible": "${canEdit}"
+                }
+              ],
+              "type": "col"
+            }
+          ],
+          "type": "row"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "events": {
+    "load": [
+      {
+        "name": "hasChanges",
+        "type": "set",
+        "value": "false"
+      },
+      {
+        "name": "canEdit",
+        "type": "set",
+        "value": "true"
+      },
+      {
+        "name": "getReportsPageSize",
+        "type": "set",
+        "value": "10"
+      }
+    ]
+  },
+  "layout": "Main",
+  "name": "Edit Rep Param"
+}

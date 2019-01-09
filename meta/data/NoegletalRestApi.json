@@ -1,0 +1,68 @@
+{
+  "info": {
+    "title": "NoegletalRestApi",
+    "x-withCredentials": true,
+    "x-type": "rest"
+  },
+  "host": "localhost:8753",
+  "basePath": "/api/",
+  "definitions": {
+    "Sagsbehandler": {
+      "properties": {
+        "init": {
+          "type": "string"
+        }
+      }
+    },
+    "Report": {
+      "properties": {
+        "reportName": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "paths": {
+    "Reports/GetUserReports/{parent}": {
+      "get": {
+        "operationId": "getUserReports",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "parent",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Report"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Reports/GetSagsBehandlere": {
+      "get": {
+        "operationId": "getSagsBehandlere",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Sagsbehandler"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "schemes": [
+    "http"
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "access": [],
+  "components": [
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "class": "col-md-12",
+              "components": [
+                {
+                  "class": "align-items-start",
+                  "components": [
+                    {
+                      "class": "col-md-4",
+                      "components": [
+                        {
+                          "name": "label0",
+                          "text": "Vælg Rapport:",
+                          "type": "label"
+                        }
+                      ],
+                      "name": "col5",
+                      "type": "col"
+                    },
+                    {
+                      "class": "col-md-4",
+                      "components": [
+                        {
+                          "name": "label1",
+                          "text": "Send Rapport Navn:",
+                          "type": "label"
+                        }
+                      ],
+                      "name": "col12",
+                      "type": "col"
+                    },
+                    {
+                      "class": "col-md-4",
+                      "components": [],
+                      "name": "col10",
+                      "type": "col"
+                    }
+                  ],
+                  "name": "row4",
+                  "style": {
+                    "paddingTop": "0px"
+                  },
+                  "type": "row"
+                },
+                {
+                  "class": "align-items-start justify-content-start",
+                  "components": [
+                    {
+                      "class": "col-md-4",
+                      "components": [
+                        {
+                          "data": "${getUserReportsResult}",
+                          "events": {
+                            "change": [
+                              {
+                                "name": "selectedReport",
+                                "type": "set",
+                                "value": "event"
+                              }
+                            ]
+                          },
+                          "name": "ddlUserReports",
+                          "style": {
+                            "display": "inline-block",
+                            "float": "none"
+                          },
+                          "template": "",
+                          "textProperty": "reportName",
+                          "type": "dropdown",
+                          "valueProperty": "reportName"
+                        }
+                      ],
+                      "name": "col0",
+                      "type": "col"
+                    },
+                    {
+                      "class": "col-md-4 justify-content-center",
+                      "components": [
+                        {
+                          "name": "textboxSendRapportNavn",
+                          "style": {
+                            "width": "231px"
+                          },
+                          "type": "textbox",
+                          "value": "selectedReport?.reportName"
+                        }
+                      ],
+                      "name": "col11",
+                      "type": "col"
+                    },
+                    {
+                      "class": "col-md-4",
+                      "components": [],
+                      "name": "col9",
+                      "type": "col"
+                    }
+                  ],
+                  "name": "row0",
+                  "type": "row"
+                },
+                {
+                  "class": "align-items-start justify-content-start",
+                  "components": [],
+                  "name": "row5",
+                  "style": {
+                    "paddingTop": "12px"
+                  },
+                  "type": "row"
+                },
+                {
+                  "defaultItemText": "",
+                  "filterBy": "",
+                  "name": "picklistSagsbehandler",
+                  "showSourceControls": false,
+                  "showTargetControls": false,
+                  "source": "${getSagsBehandlereResult}",
+                  "sourceHeader": "Vælg Sagsbehandlere:",
+                  "style": {
+                    "display": "flex",
+                    "float": "none",
+                    "height": "200px"
+                  },
+                  "target": "",
+                  "targetHeader": "Valgte Sagsbehandlere:",
+                  "template": "{{data.init}}",
+                  "type": "picklist"
+                },
+                {
+                  "class": "justify-content-between",
+                  "components": [
+                    {
+                      "class": "col-md-8",
+                      "components": [
+                        {
+                          "events": {
+                            "click": [
+                              {
+                                "type": "close-popup"
+                              }
+                            ]
+                          },
+                          "name": "button0",
+                          "style": {
+                            "backgroundColor": "#383332",
+                            "marginRight": "5px",
+                            "marginTop": "20",
+                            "width": "130px"
+                          },
+                          "text": "Send",
+                          "type": "button"
+                        },
+                        {
+                          "events": {
+                            "click": [
+                              {
+                                "type": "close-popup"
+                              }
+                            ]
+                          },
+                          "name": "button1",
+                          "style": {
+                            "backgroundColor": "#383332",
+                            "position": "static",
+                            "width": "130px"
+                          },
+                          "text": "Luk",
+                          "type": "button"
+                        }
+                      ],
+                      "name": "col8",
+                      "style": {
+                        "float": "left",
+                        "textAlign": "left"
+                      },
+                      "type": "col"
+                    }
+                  ],
+                  "name": "row2",
+                  "style": {
+                    "marginTop": "10px"
+                  },
+                  "type": "row"
+                }
+              ],
+              "name": "col4",
+              "type": "col"
+            }
+          ],
+          "name": "row3",
+          "style": {
+            "height": "239px"
+          },
+          "type": "row"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "events": {
+    "load": [
+      {
+        "name": "NoegletalRestApi.getUserReports",
+        "parameters": [
+          {
+            "name": "parent",
+            "value": "${parameters.model}"
+          }
+        ],
+        "then": [
+          {
+            "name": "getUserReportsResult",
+            "type": "set",
+            "value": "${result}"
+          }
+        ],
+        "type": "invoke"
+      },
+      {
+        "name": "NoegletalRestApi.getSagsBehandlere",
+        "parameters": [],
+        "type": "invoke"
+      },
+      {
+        "name": "model",
+        "type": "set",
+        "value": "${parameters.model}"
+      },
+      {
+        "name": "NoegletalRestApi.getSagsBehandlere",
+        "parameters": [],
+        "then": [
+          {
+            "name": "getSagsBehandlereResult",
+            "type": "set",
+            "value": "${result}"
+          }
+        ],
+        "type": "invoke"
+      }
+    ]
+  },
+  "layout": "Main",
+  "name": "Send Rapport"
+}

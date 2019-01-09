@@ -1,0 +1,236 @@
+{
+  "components": [
+    {
+      "type": "content",
+      "container": "main",
+      "components": [
+        {
+          "components": [
+            {
+              "class": "col-md-9",
+              "components": [
+                {
+                  "name": "closeLabel",
+                  "style": {
+                    "fontWeight": "bold"
+                  },
+                  "text": "Item no longer available.",
+                  "type": "label",
+                  "visible": "${!canEdit}"
+                }
+              ],
+              "name": "col0",
+              "type": "col"
+            },
+            {
+              "class": "col-md-3",
+              "components": [
+                {
+                  "buttonStyle": "secondary",
+                  "events": {
+                    "click": [
+                      {
+                        "type": "back"
+                      }
+                    ]
+                  },
+                  "icon": "",
+                  "name": "closeButton",
+                  "style": {
+                    "marginBottom": "20px"
+                  },
+                  "text": "Close",
+                  "type": "button",
+                  "visible": "${!canEdit}"
+                }
+              ],
+              "name": "col1",
+              "type": "col"
+            }
+          ],
+          "name": "row0",
+          "style": {},
+          "type": "row"
+        },
+        {
+          "components": [
+            {
+              "class": "col-md-9",
+              "components": [
+                {
+                  "name": "label0",
+                  "style": {
+                    "fontWeight": "bold"
+                  },
+                  "text": "Another user has made conflicting changes to one or more of the fields you have modified. Please reload.",
+                  "type": "label",
+                  "visible": "${hasChanges}"
+                }
+              ],
+              "name": "col0",
+              "type": "col"
+            },
+            {
+              "class": "col-md-3",
+              "components": [
+                {
+                  "buttonStyle": "secondary",
+                  "events": {
+                    "click": [
+                      {
+                        "code": "this.load()",
+                        "type": "execute"
+                      }
+                    ]
+                  },
+                  "icon": "autorenew",
+                  "name": "button0",
+                  "style": {
+                    "marginBottom": "20px"
+                  },
+                  "text": "Reload",
+                  "type": "button",
+                  "visible": "${hasChanges}"
+                }
+              ],
+              "name": "col1",
+              "type": "col"
+            }
+          ],
+          "name": "row0",
+          "style": {},
+          "type": "row"
+        },
+        {
+          "type": "row",
+          "components": [
+            {
+              "type": "col",
+              "class": "col-md-12",
+              "components": [
+                {
+                  "events": {
+                    "cancel": [
+                      {
+                        "type": "back"
+                      }
+                    ],
+                    "submit": [],
+                    "loadData": []
+                  },
+                  "fields": [
+                    {
+                      "property": "RepSourceId",
+                      "required": false,
+                      "textProperty": "RepServer",
+                      "title": "Rep Source",
+                      "type": "lookuppopup",
+                      "valueProperty": "RepSourceId",
+                      "placeholder": "Choose RepSource",
+                      "pageSize": "${getRepSourcesPageSize}",
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "Category",
+                      "required": false,
+                      "title": "Category",
+                      "type": "string",
+                      "maxLength": 50,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RepName",
+                      "required": true,
+                      "title": "Rep Name",
+                      "type": "string",
+                      "maxLength": 70,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RepCaption",
+                      "required": false,
+                      "title": "Rep Caption",
+                      "type": "string",
+                      "maxLength": 200,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RepText",
+                      "required": false,
+                      "title": "Rep Text",
+                      "type": "string",
+                      "maxLength": 200,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RepDef",
+                      "required": true,
+                      "title": "Rep Def",
+                      "type": "string",
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "ReportDescription",
+                      "required": true,
+                      "title": "Report Description",
+                      "type": "string",
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RepOwner",
+                      "required": false,
+                      "title": "Rep Owner",
+                      "type": "string",
+                      "maxLength": 50,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RegInit",
+                      "required": true,
+                      "title": "Reg Init",
+                      "type": "string",
+                      "maxLength": 12,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RegTid",
+                      "required": true,
+                      "title": "Reg Tid",
+                      "type": "date",
+                      "requiredText": "is required"
+                    }
+                  ],
+                  "name": "form0",
+                  "type": "form",
+                  "visible": "${canEdit}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": {
+    "load": [
+      {
+        "name": "hasChanges",
+        "type": "set",
+        "value": "false"
+      },
+      {
+        "name": "canEdit",
+        "type": "set",
+        "value": "true"
+      },
+      {
+        "name": "getRepSourcesPageSize",
+        "type": "set",
+        "value": "10"
+      }
+    ]
+  },
+  "name": "Edit Report",
+  "layout": "Main",
+  "access": []
+}

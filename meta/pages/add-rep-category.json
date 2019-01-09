@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "type": "content",
+      "container": "main",
+      "components": [
+        {
+          "type": "row",
+          "components": [
+            {
+              "type": "col",
+              "class": "col-md-12",
+              "components": [
+                {
+                  "data": "",
+                  "events": {
+                    "cancel": [
+                      {
+                        "type": "back"
+                      }
+                    ],
+                    "submit": [],
+                    "loadData": []
+                  },
+                  "fields": [
+                    {
+                      "property": "RepCategoryId",
+                      "required": true,
+                      "title": "Rep Category Id",
+                      "type": "integer",
+                      "requiredText": "is required",
+                      "minText": "cannot be less than",
+                      "maxText": "cannot be more than"
+                    },
+                    {
+                      "property": "RepSourceId",
+                      "required": true,
+                      "textProperty": "RepServer",
+                      "title": "Rep Source",
+                      "type": "lookuppopup",
+                      "valueProperty": "RepSourceId",
+                      "placeholder": "Choose RepSource",
+                      "pageSize": "${getRepSourcesPageSize}",
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RepCategoryheader",
+                      "required": true,
+                      "title": "Rep Categoryheader",
+                      "type": "string",
+                      "maxLength": 100,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RepCategorySubHeader",
+                      "required": true,
+                      "title": "Rep Category Sub Header",
+                      "type": "string",
+                      "maxLength": 300,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RegInit",
+                      "required": true,
+                      "title": "Reg Init",
+                      "type": "string",
+                      "maxLength": 12,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RegTid",
+                      "required": true,
+                      "title": "Reg Tid",
+                      "type": "date",
+                      "requiredText": "is required"
+                    }
+                  ],
+                  "name": "form0",
+                  "type": "form"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": {
+    "load": [
+      {
+        "name": "getRepSourcesPageSize",
+        "type": "set",
+        "value": "10"
+      }
+    ]
+  },
+  "name": "Add Rep Category",
+  "layout": "Main",
+  "access": []
+}

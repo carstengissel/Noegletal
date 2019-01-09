@@ -1,0 +1,83 @@
+{
+  "access": [],
+  "components": [
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "components": [
+                {
+                  "class": "col-md-2",
+                  "components": [
+                    {
+                      "name": "button0",
+                      "style": {
+                        "backgroundColor": "#ec2424",
+                        "width": "120px"
+                      },
+                      "text": "Slet",
+                      "type": "button"
+                    }
+                  ],
+                  "name": "col4",
+                  "style": {
+                    "right": "2px",
+                    "textAlign": "center"
+                  },
+                  "type": "col"
+                },
+                {
+                  "class": "col-md-2",
+                  "name": "col5",
+                  "type": "col"
+                },
+                {
+                  "class": "col-md-2",
+                  "components": [
+                    {
+                      "name": "button1",
+                      "style": {
+                        "backgroundColor": "#484544",
+                        "marginLeft": "20px",
+                        "width": "120px"
+                      },
+                      "text": "Fortryd",
+                      "type": "button"
+                    }
+                  ],
+                  "name": "col6",
+                  "type": "col"
+                },
+                {
+                  "class": "col-md-2",
+                  "name": "col3",
+                  "type": "col"
+                },
+                {
+                  "class": "col-md-2",
+                  "name": "col7",
+                  "type": "col"
+                },
+                {
+                  "class": "col-md-2",
+                  "name": "col2",
+                  "type": "col"
+                }
+              ],
+              "name": "row0",
+              "type": "row"
+            }
+          ],
+          "name": "panel0",
+          "text": "Bekræft sletning",
+          "type": "panel"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "layout": "Main",
+  "name": "Slet Rapport"
+}

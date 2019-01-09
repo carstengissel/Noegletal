@@ -1,0 +1,42 @@
+{
+  "access": [],
+  "components": [
+    {
+      "components": [
+        {
+          "name": "pageTitle",
+          "size": "H1",
+          "text": "TestSide",
+          "type": "heading"
+        },
+        {
+          "items": [
+            {
+              "components": [
+                {
+                  "components": [
+                    {
+                      "name": "button0",
+                      "text": "Hej Der",
+                      "type": "button"
+                    }
+                  ],
+                  "name": "card0",
+                  "type": "card",
+                  "visible": true
+                }
+              ],
+              "text": "TEST"
+            }
+          ],
+          "name": "accordion0",
+          "type": "accordion"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "layout": "Main",
+  "name": "TestSide"
+}

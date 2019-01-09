@@ -1,0 +1,117 @@
+{
+  "access": [],
+  "components": [
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "name": "label0",
+              "style": {
+                "marginRight": "20px",
+                "width": "269.390625px"
+              },
+              "text": "Vælg Report:",
+              "type": "label"
+            },
+            {
+              "name": "autocompleteVaelgReport",
+              "style": {
+                "marginRight": "34px",
+                "width": "274px"
+              },
+              "type": "autocomplete"
+            },
+            {
+              "name": "label1",
+              "style": {
+                "width": "173.3125px"
+              },
+              "text": "Vælg Sagsbehandler:",
+              "type": "label"
+            },
+            {
+              "name": "listboxVaelgSagsbehandler",
+              "style": {
+                "height": "170px",
+                "width": "276px"
+              },
+              "type": "listbox"
+            },
+            {
+              "icon": "arrow_downward",
+              "name": "button1",
+              "style": {
+                "backgroundColor": "#0c8e34",
+                "height": "40px",
+                "marginBottom": "5px",
+                "marginLeft": "33px",
+                "marginRight": "53px",
+                "marginTop": "10px",
+                "width": "80px"
+              },
+              "text": "",
+              "type": "button"
+            },
+            {
+              "icon": "arrow_upward",
+              "name": "button2",
+              "style": {
+                "backgroundColor": "#e72316",
+                "height": "40px",
+                "marginLeft": "3px",
+                "width": "80px"
+              },
+              "text": "",
+              "type": "button"
+            },
+            {
+              "name": "label2",
+              "text": "Valgte Sagsbehandlere:",
+              "type": "label"
+            },
+            {
+              "name": "textarea0",
+              "style": {
+                "height": "170px",
+                "width": "272px"
+              },
+              "type": "textarea",
+              "value": ""
+            },
+            {
+              "name": "buttonSend",
+              "style": {
+                "backgroundColor": "#362e2c",
+                "marginRight": "8px",
+                "width": "132px"
+              },
+              "text": "Send",
+              "type": "button"
+            },
+            {
+              "name": "button0",
+              "style": {
+                "backgroundColor": "#362e2c",
+                "width": "132px"
+              },
+              "text": "Luk",
+              "type": "button"
+            }
+          ],
+          "name": "panel0",
+          "style": {
+            "height": "630px",
+            "width": "332px"
+          },
+          "text": "",
+          "type": "panel"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "layout": "Main",
+  "name": "Send"
+}

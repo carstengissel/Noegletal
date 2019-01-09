@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "components": [
+        {
+          "class": "justify-content-start align-items-center",
+          "components": [
+            {
+              "class": "col-md-6 d-flex align-items-center",
+              "components": [
+                {
+                  "name": "sidebar-toggle0",
+                  "type": "sidebar-toggle"
+                },
+                {
+                  "name": "label0",
+                  "text": "Noegletal",
+                  "type": "label"
+                }
+              ],
+              "name": "leftCol",
+              "type": "col"
+            }
+          ],
+          "name": "headerRow",
+          "type": "row"
+        }
+      ],
+      "name": "header0",
+      "type": "header"
+    },
+    {
+      "components": [
+        {
+          "name": "main",
+          "style": {
+            "width": "797px"
+          },
+          "type": "content-container"
+        }
+      ],
+      "name": "body0",
+      "style": {
+        "paddingTop": "3px",
+        "width": ""
+      },
+      "type": "body"
+    },
+    {
+      "components": [
+        {
+          "items": [
+            {
+              "path": "forside-cards",
+              "text": "Forside"
+            }
+          ],
+          "name": "panelmenu0",
+          "style": {
+            "height": "100%",
+            "width": "220px"
+          },
+          "type": "panelmenu"
+        }
+      ],
+      "name": "sidebar0",
+      "stretch": false,
+      "style": {
+        "width": "221px"
+      },
+      "type": "sidebar"
+    }
+  ],
+  "name": "Main"
+}

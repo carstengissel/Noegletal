@@ -1,0 +1,281 @@
+{
+  "info": {
+    "title": "NoegleTal",
+    "x-type": "odata",
+    "x-connector": "mssql",
+    "x-connector-version": 14
+  },
+  "definitions": {
+    "NoegleTalReport": {
+      "x-table": "dbo.Reports",
+      "resource": "NoegleTalReports",
+      "required": [
+        "ReportId",
+        "ReportName",
+        "ShortDescription",
+        "Type",
+        "ExternalId",
+        "WebUrl",
+        "Parent",
+        "ShowUpdate",
+        "Updated",
+        "RouteUrl",
+        "Dataset",
+        "GroupId",
+        "RegTid",
+        "RegInit"
+      ],
+      "properties": {
+        "ReportId": {
+          "x-key": true,
+          "type": "string",
+          "format": "uuid"
+        },
+        "ReportName": {
+          "x-key": false,
+          "type": "string",
+          "length": 100
+        },
+        "ShortDescription": {
+          "x-key": false,
+          "type": "string",
+          "length": 200
+        },
+        "Type": {
+          "x-key": false,
+          "type": "string",
+          "length": 10
+        },
+        "ExternalId": {
+          "x-key": false,
+          "type": "string",
+          "format": "uuid"
+        },
+        "WebUrl": {
+          "x-key": false,
+          "type": "string",
+          "length": 500
+        },
+        "Parent": {
+          "x-key": false,
+          "type": "string",
+          "length": 100
+        },
+        "ShowUpdate": {
+          "x-key": false,
+          "type": "boolean"
+        },
+        "Updated": {
+          "x-key": false,
+          "type": "string",
+          "format": "date-time"
+        },
+        "RouteUrl": {
+          "x-key": false,
+          "type": "string",
+          "length": 250
+        },
+        "Dataset": {
+          "x-key": false,
+          "type": "string",
+          "format": "uuid"
+        },
+        "GroupId": {
+          "x-key": false,
+          "type": "string",
+          "format": "uuid"
+        },
+        "RegTid": {
+          "x-key": false,
+          "type": "string",
+          "format": "date-time"
+        },
+        "RegInit": {
+          "x-key": false,
+          "type": "string",
+          "length": 50
+        },
+        "LongDescription": {
+          "x-key": false,
+          "type": "string",
+          "length": 1000
+        },
+        "System": {
+          "x-key": false,
+          "type": "string",
+          "length": 100
+        },
+        "ReportOwner": {
+          "x-key": false,
+          "type": "string",
+          "length": 20
+        }
+      }
+    }
+  },
+  "paths": {
+    "/NoegleTalReports": {
+      "get": {
+        "operationId": "getNoegleTalReports",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "$filter",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$top",
+            "type": "integer"
+          },
+          {
+            "in": "query",
+            "name": "$skip",
+            "type": "integer"
+          },
+          {
+            "in": "query",
+            "name": "$orderby",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$count",
+            "type": "boolean"
+          },
+          {
+            "in": "query",
+            "name": "$expand",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$format",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$select",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "properties": {
+                "value": {
+                  "items": {
+                    "$ref": "#/definitions/NoegleTalReport"
+                  },
+                  "type": "array"
+                }
+              },
+              "type": "object"
+            }
+          },
+          "default": {
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      },
+      "post": {
+        "operationId": "createNoegleTalReport",
+        "parameters": [
+          {
+            "in": "body",
+            "name": "NoegleTalReport",
+            "schema": {
+              "$ref": "#/definitions/NoegleTalReport"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "schema": {
+              "$ref": "#/definitions/NoegleTalReport"
+            }
+          },
+          "default": {
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/NoegleTalReports({ReportId})": {
+      "delete": {
+        "operationId": "deleteNoegleTalReport",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "ReportId",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "204": {},
+          "default": {
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      },
+      "get": {
+        "operationId": "getNoegleTalReportByReportId",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "ReportId",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/NoegleTalReport"
+            }
+          },
+          "default": {
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      },
+      "patch": {
+        "operationId": "updateNoegleTalReport",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "ReportId",
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "NoegleTalReport",
+            "schema": {
+              "$ref": "#/definitions/NoegleTalReport"
+            }
+          }
+        ],
+        "responses": {
+          "204": {},
+          "default": {
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    }
+  },
+  "basePath": "/odata/NoegleTal",
+  "host": "localhost:5000",
+  "schemes": [
+    "http"
+  ]
+}

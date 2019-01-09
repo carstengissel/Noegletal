@@ -1,0 +1,64 @@
+{
+  "access": [],
+  "components": [
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "class": "col-md-12",
+              "components": [
+                {
+                  "content": "<iframe [src]=\"visReport\"  [ngStyle]=\"{'height':'780px','width':'100%'}\"></iframe>",
+                  "name": "html0",
+                  "type": "html"
+                }
+              ],
+              "name": "col0",
+              "type": "col"
+            }
+          ],
+          "name": "row0",
+          "style": {},
+          "type": "row"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "events": {
+    "load": [
+      {
+        "name": "ReportId",
+        "type": "set",
+        "value": "${parameters.reportId}"
+      },
+      {
+        "name": "filterParm",
+        "type": "set",
+        "value": "\"ReportId eq '\" + ${ReportId} + \"' and Type eq 'SSRS'\""
+      },
+      {
+        "condition": "",
+        "name": "NoegleTal.getNoegleTalReports",
+        "parameters": [
+          {
+            "name": "$filter",
+            "value": "${filterParm}"
+          }
+        ],
+        "then": [
+          {
+            "name": "visReport",
+            "type": "set",
+            "value": "${result.value.WebUrl}"
+          }
+        ],
+        "type": "invoke"
+      }
+    ]
+  },
+  "layout": "Main",
+  "name": "reportSSRS"
+}

@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "type": "content",
+      "container": "main",
+      "components": [
+        {
+          "type": "row",
+          "components": [
+            {
+              "type": "col",
+              "class": "col-md-12",
+              "components": [
+                {
+                  "data": "",
+                  "events": {
+                    "cancel": [
+                      {
+                        "type": "back"
+                      }
+                    ],
+                    "submit": [],
+                    "loadData": []
+                  },
+                  "fields": [
+                    {
+                      "property": "RepId",
+                      "required": true,
+                      "textProperty": "Category",
+                      "title": "Report",
+                      "type": "lookuppopup",
+                      "valueProperty": "RepID",
+                      "placeholder": "Choose Report",
+                      "pageSize": "${getReportsPageSize}",
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "ParamId",
+                      "required": true,
+                      "title": "Param Id",
+                      "type": "integer",
+                      "requiredText": "is required",
+                      "minText": "cannot be less than",
+                      "maxText": "cannot be more than"
+                    },
+                    {
+                      "property": "ParamSelect",
+                      "required": false,
+                      "title": "Param Select",
+                      "type": "string",
+                      "maxLength": 1,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RegInit",
+                      "required": true,
+                      "title": "Reg Init",
+                      "type": "string",
+                      "maxLength": 12,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RegTid",
+                      "required": true,
+                      "title": "Reg Tid",
+                      "type": "date",
+                      "requiredText": "is required"
+                    }
+                  ],
+                  "name": "form0",
+                  "type": "form"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": {
+    "load": [
+      {
+        "name": "getReportsPageSize",
+        "type": "set",
+        "value": "10"
+      }
+    ]
+  },
+  "name": "Add Rep Param",
+  "layout": "Main",
+  "access": []
+}

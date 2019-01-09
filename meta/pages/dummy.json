@@ -1,0 +1,96 @@
+{
+  "access": [],
+  "components": [
+    {
+      "components": [
+        {
+          "name": "pageTitle",
+          "size": "H1",
+          "text": "dummy",
+          "type": "heading"
+        },
+        {
+          "name": "link0",
+          "type": "link"
+        },
+        {
+          "name": "splitbutton0",
+          "text": "",
+          "type": "splitbutton"
+        },
+        {
+          "name": "dropdown0",
+          "type": "dropdown"
+        },
+        {
+          "events": {
+            "click": [
+              {
+                "parameters": [
+                  {
+                    "name": "model",
+                    "value": "'test'"
+                  }
+                ],
+                "path": "forespoergelse-ssrs",
+                "type": "navigate"
+              }
+            ]
+          },
+          "name": "button0",
+          "text": "roud",
+          "type": "button"
+        },
+        {
+          "events": {
+            "click": [
+              {
+                "path": "forespoergelse-ssrs",
+                "type": "navigate"
+              }
+            ]
+          },
+          "name": "button1",
+          "text": "raud2",
+          "type": "button"
+        },
+        {
+          "events": {
+            "click": [
+              {
+                "path": "report-ssrs",
+                "type": "navigate"
+              }
+            ]
+          },
+          "name": "button2",
+          "text": "roud3",
+          "type": "button"
+        },
+        {
+          "events": {
+            "click": [
+              {
+                "parameters": [
+                  {
+                    "name": "reportId",
+                    "value": "'test'"
+                  }
+                ],
+                "path": "report-ssrs",
+                "type": "navigate"
+              }
+            ]
+          },
+          "name": "button3",
+          "text": "roud4",
+          "type": "button"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "layout": "Main",
+  "name": "dummy"
+}

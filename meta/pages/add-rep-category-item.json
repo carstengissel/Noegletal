@@ -1,0 +1,123 @@
+{
+  "components": [
+    {
+      "type": "content",
+      "container": "main",
+      "components": [
+        {
+          "type": "row",
+          "components": [
+            {
+              "type": "col",
+              "class": "col-md-12",
+              "components": [
+                {
+                  "data": "",
+                  "events": {
+                    "cancel": [
+                      {
+                        "type": "back"
+                      }
+                    ],
+                    "submit": [],
+                    "loadData": []
+                  },
+                  "fields": [
+                    {
+                      "property": "RepCategoryItemId",
+                      "required": true,
+                      "title": "Rep Category Item Id",
+                      "type": "integer",
+                      "requiredText": "is required",
+                      "minText": "cannot be less than",
+                      "maxText": "cannot be more than"
+                    },
+                    {
+                      "property": "RepCategoryId",
+                      "required": true,
+                      "textProperty": "RepCategoryheader",
+                      "title": "Rep Category",
+                      "type": "lookuppopup",
+                      "valueProperty": "RepCategoryId",
+                      "placeholder": "Choose RepCategory",
+                      "pageSize": "${getRepCategoriesPageSize}",
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RepCategoryItemHeader",
+                      "required": true,
+                      "title": "Rep Category Item Header",
+                      "type": "string",
+                      "maxLength": 100,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RepCategoryItemSubHeader",
+                      "required": true,
+                      "title": "Rep Category Item Sub Header",
+                      "type": "string",
+                      "maxLength": 300,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RepCategoryItemBod",
+                      "required": true,
+                      "title": "Rep Category Item Bod",
+                      "type": "string",
+                      "maxLength": 1000,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RepCategoryItemResponsible",
+                      "required": true,
+                      "title": "Rep Category Item Responsible",
+                      "type": "string",
+                      "maxLength": 50,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "KrselsDato",
+                      "required": true,
+                      "title": "Korsels Dato",
+                      "type": "date",
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RegInit",
+                      "required": true,
+                      "title": "Reg Init",
+                      "type": "string",
+                      "maxLength": 12,
+                      "requiredText": "is required"
+                    },
+                    {
+                      "property": "RegTid",
+                      "required": true,
+                      "title": "Reg Tid",
+                      "type": "date",
+                      "requiredText": "is required"
+                    }
+                  ],
+                  "name": "form0",
+                  "type": "form"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": {
+    "load": [
+      {
+        "name": "getRepCategoriesPageSize",
+        "type": "set",
+        "value": "10"
+      }
+    ]
+  },
+  "name": "Add Rep Category Item",
+  "layout": "Main",
+  "access": []
+}

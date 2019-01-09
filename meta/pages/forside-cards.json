@@ -1,0 +1,439 @@
+{
+  "access": [],
+  "components": [
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "class": "col-md-3",
+              "components": [
+                {
+                  "components": [
+                    {
+                      "components": [
+                        {
+                          "class": "col-md-12",
+                          "components": [
+                            {
+                              "content": "<div id=\"bestand\" class=\"pbi-line\">\n           <div class=\"sampleImg\" id=\"bestandImg\"></div>\n        <div class=\"sampleTextButton\">\n            <div class=\"pageTitle\">\n                <h3>Medlemsbestand</h3>\n                <h6>Her findes rapporter over det samlede antal af medlemmer fordelt efter køn, alder, afdeling, faggruppe, tillidshverv etc. samt mulighed for at lave udtræk over antallet af medlemmer.\n</h6>\n            </div>\n          \n        </div>\n    </div>",
+                              "name": "html0",
+                              "type": "html"
+                            },
+                            {
+                              "events": {
+                                "click": [
+                                  {
+                                    "condition": "",
+                                    "parameters": [
+                                      {
+                                        "name": "model",
+                                        "value": "'Bestand'"
+                                      }
+                                    ],
+                                    "path": "forespoergelse-ssrs",
+                                    "type": "navigate"
+                                  }
+                                ]
+                              },
+                              "name": "button2",
+                              "text": "Vælg",
+                              "type": "button"
+                            }
+                          ],
+                          "name": "col1",
+                          "style": {},
+                          "type": "col"
+                        }
+                      ],
+                      "name": "row2",
+                      "type": "row"
+                    }
+                  ],
+                  "name": "card0",
+                  "style": {
+                    "height": "100%",
+                    "width": "100%"
+                  },
+                  "type": "card",
+                  "visible": true
+                }
+              ],
+              "name": "col0",
+              "type": "col"
+            },
+            {
+              "class": "col-md-3",
+              "components": [
+                {
+                  "components": [
+                    {
+                      "components": [
+                        {
+                          "class": "col-md-12 justify-content-start",
+                          "components": [
+                            {
+                              "content": "<div id=\"bevaeg\" class=\"pbi-line\">\n           <div class=\"sampleImg\" id=\"bevaegImg\"></div>\n        <div class=\"sampleTextButton\">\n            <div class=\"pageTitle\">\n                <h3>Medlemsbevægelser</h3>\n                <h6>Her findes rapporter over antallet af ind- og udmeldte medlemmer fordelt efter køn, alder, afdeling, faggruppe, ind- og udmeldelsesårsag etc. samt mulighed for at lave udtræk over ind- og udmeldte medlemmer.\n</h6>\n            </div>\n          \n        </div>\n    </div>",
+                              "name": "html1",
+                              "type": "html"
+                            },
+                            {
+                              "events": {
+                                "click": [
+                                  {
+                                    "parameters": [
+                                      {
+                                        "name": "model",
+                                        "value": "'Medlemsbevægelser'"
+                                      }
+                                    ],
+                                    "path": "forespoergelse-ssrs",
+                                    "type": "navigate"
+                                  }
+                                ]
+                              },
+                              "name": "button1",
+                              "text": "Vælg",
+                              "type": "button"
+                            }
+                          ],
+                          "name": "col3",
+                          "style": {
+                            "height": ""
+                          },
+                          "type": "col"
+                        }
+                      ],
+                      "name": "row4",
+                      "style": {},
+                      "type": "row"
+                    }
+                  ],
+                  "name": "card1",
+                  "style": {
+                    "height": "100%",
+                    "width": "100%"
+                  },
+                  "type": "card",
+                  "visible": true
+                }
+              ],
+              "name": "col2",
+              "type": "col"
+            },
+            {
+              "class": "col-md-3",
+              "components": [
+                {
+                  "components": [
+                    {
+                      "components": [
+                        {
+                          "class": "col-md-12",
+                          "components": [
+                            {
+                              "content": "<div id=\"ledighed\" class=\"pbi-line\">\n           <div class=\"sampleImg\" id=\"ledigImg\"></div>\n        <div class=\"sampleTextButton\">\n            <div class=\"pageTitle\">\n                <h3>Stillingsfordelt ledighed</h3>\n                <h6>Her findes rapporter over det samlede antal af medlemmer på dagpenge fordelt efter køn, alder, region, faggruppe og ledighedsårsag samt mulighed for at lave udtræk over antallet af medlemmer på dagpenge.\n</h6>\n            </div>\n          \n        </div>\n    </div>",
+                              "name": "html2",
+                              "type": "html"
+                            },
+                            {
+                              "events": {
+                                "click": [
+                                  {
+                                    "path": "replist",
+                                    "type": "navigate"
+                                  }
+                                ]
+                              },
+                              "name": "button3",
+                              "text": "Vælg",
+                              "type": "button"
+                            }
+                          ],
+                          "name": "col9",
+                          "type": "col"
+                        }
+                      ],
+                      "name": "row7",
+                      "type": "row"
+                    }
+                  ],
+                  "name": "card2",
+                  "type": "card",
+                  "visible": true
+                }
+              ],
+              "name": "col8",
+              "type": "col"
+            },
+            {
+              "class": "col-md-3",
+              "components": [
+                {
+                  "components": [
+                    {
+                      "components": [
+                        {
+                          "class": "col-md-12",
+                          "components": [
+                            {
+                              "content": "<div id=\"bestand\" class=\"pbi-line\">\n           <div class=\"sampleImg\" id=\"fleksImg\"></div>\n        <div class=\"sampleTextButton\">\n            <div class=\"pageTitle\">\n                <h3>Fleksjob</h3>\n                <h6>Her findes rapporter over medlemmer i fleksjobordninger, samt mulighed for at lave udtræk\n</h6>\n            </div>\n          \n        </div>\n    </div>",
+                              "name": "html5",
+                              "type": "html"
+                            },
+                            {
+                              "events": {
+                                "click": [
+                                  {
+                                    "path": "replist",
+                                    "type": "navigate"
+                                  }
+                                ]
+                              },
+                              "name": "button4",
+                              "text": "Vælg",
+                              "type": "button"
+                            }
+                          ],
+                          "name": "col12",
+                          "style": {},
+                          "type": "col"
+                        }
+                      ],
+                      "name": "row5",
+                      "type": "row"
+                    }
+                  ],
+                  "name": "card5",
+                  "style": {
+                    "height": "100%",
+                    "width": "100%"
+                  },
+                  "type": "card",
+                  "visible": true
+                }
+              ],
+              "name": "col10",
+              "type": "col"
+            }
+          ],
+          "name": "row0",
+          "style": {
+            "marginBottom": "10px"
+          },
+          "type": "row"
+        },
+        {
+          "components": [
+            {
+              "class": "col-md-3",
+              "components": [
+                {
+                  "components": [
+                    {
+                      "components": [
+                        {
+                          "class": "col-md-12",
+                          "components": [
+                            {
+                              "content": "<div id=\"bestand\" class=\"pbi-line\">\n           <div class=\"sampleImg\" id=\"fleksImg\"></div>\n        <div class=\"sampleTextButton\">\n            <div class=\"pageTitle\">\n                <h3>Til- og afgange efterløn</h3>\n                <h6>Her findes rapporter over medlemmer i fleksjobordninger, samt mulighed for at lave udtræk\n</h6>\n            </div>\n          \n        </div>\n    </div>",
+                              "name": "html8",
+                              "type": "html"
+                            },
+                            {
+                              "events": {
+                                "click": [
+                                  {
+                                    "path": "replist",
+                                    "type": "navigate"
+                                  }
+                                ]
+                              },
+                              "name": "button8",
+                              "text": "Vælg",
+                              "type": "button"
+                            }
+                          ],
+                          "name": "col17",
+                          "style": {},
+                          "type": "col"
+                        }
+                      ],
+                      "name": "row11",
+                      "type": "row"
+                    }
+                  ],
+                  "name": "card8",
+                  "style": {
+                    "height": "100%",
+                    "width": "100%"
+                  },
+                  "type": "card",
+                  "visible": true
+                }
+              ],
+              "name": "col16",
+              "type": "col"
+            },
+            {
+              "class": "col-md-3",
+              "components": [
+                {
+                  "components": [
+                    {
+                      "components": [
+                        {
+                          "class": "col-md-12",
+                          "components": [
+                            {
+                              "content": "<div id=\"bestand\" class=\"pbi-line\">\n           <div class=\"sampleImg\" id=\"okonomiImg\"></div>\n        <div class=\"sampleTextButton\">\n            <div class=\"pageTitle\">\n                <h3>Økonomi</h3>\n                <h6>Her findes rapporter over medlemmer i fleksjobordninger, samt mulighed for at lave udtræk\n</h6>\n            </div>\n          \n        </div>\n    </div>",
+                              "name": "html9",
+                              "type": "html"
+                            },
+                            {
+                              "events": {
+                                "click": [
+                                  {
+                                    "path": "replist",
+                                    "type": "navigate"
+                                  }
+                                ]
+                              },
+                              "name": "button9",
+                              "text": "Vælg",
+                              "type": "button"
+                            }
+                          ],
+                          "name": "col19",
+                          "style": {},
+                          "type": "col"
+                        }
+                      ],
+                      "name": "row12",
+                      "type": "row"
+                    }
+                  ],
+                  "name": "card9",
+                  "style": {
+                    "height": "100%",
+                    "width": "100%"
+                  },
+                  "type": "card",
+                  "visible": true
+                }
+              ],
+              "name": "col18",
+              "type": "col"
+            },
+            {
+              "class": "col-md-3",
+              "components": [
+                {
+                  "components": [
+                    {
+                      "components": [
+                        {
+                          "class": "col-md-12",
+                          "components": [
+                            {
+                              "content": "<div id=\"bestand\" class=\"pbi-line\">\n           <div class=\"sampleImg\" id=\"foedselJubilaerImg\"></div>\n        <div class=\"sampleTextButton\">\n            <div class=\"pageTitle\">\n                <h3>Jubilæer og fødselsdage</h3>\n                <h6>Her findes rapporter over medlemmer i fleksjobordninger, samt mulighed for at lave udtræk\n</h6>\n            </div>\n          \n        </div>\n    </div>",
+                              "name": "html10",
+                              "type": "html"
+                            },
+                            {
+                              "events": {
+                                "click": [
+                                  {
+                                    "path": "replist",
+                                    "type": "navigate"
+                                  }
+                                ]
+                              },
+                              "name": "button10",
+                              "text": "Vælg",
+                              "type": "button"
+                            }
+                          ],
+                          "name": "col25",
+                          "style": {},
+                          "type": "col"
+                        }
+                      ],
+                      "name": "row14",
+                      "type": "row"
+                    }
+                  ],
+                  "name": "card10",
+                  "style": {
+                    "height": "100%",
+                    "width": "100%"
+                  },
+                  "type": "card",
+                  "visible": true
+                }
+              ],
+              "name": "col20",
+              "type": "col"
+            },
+            {
+              "class": "col-md-3",
+              "components": [
+                {
+                  "components": [
+                    {
+                      "components": [
+                        {
+                          "class": "col-md-12",
+                          "components": [
+                            {
+                              "content": "<div id=\"bestand\" class=\"pbi-line\">\n           <div class=\"sampleImg\" id=\"reportBuilderImg\"></div>\n        <div class=\"sampleTextButton\">\n            <div class=\"pageTitle\">\n                <h3>TZ Login</h3>\n                <h6>Her findes rapporter over medlemmer i fleksjobordninger, samt mulighed for at lave udtræk\n</h6>\n            </div>\n          \n        </div>\n    </div>",
+                              "name": "html11",
+                              "type": "html"
+                            },
+                            {
+                              "events": {
+                                "click": [
+                                  {
+                                    "path": "replist",
+                                    "type": "navigate"
+                                  }
+                                ]
+                              },
+                              "name": "button11",
+                              "text": "Vælg",
+                              "type": "button"
+                            }
+                          ],
+                          "name": "col31",
+                          "style": {},
+                          "type": "col"
+                        }
+                      ],
+                      "name": "row17",
+                      "type": "row"
+                    }
+                  ],
+                  "name": "card11",
+                  "style": {
+                    "height": "100%",
+                    "width": "100%"
+                  },
+                  "type": "card",
+                  "visible": true
+                }
+              ],
+              "name": "col32",
+              "type": "col"
+            }
+          ],
+          "name": "row10",
+          "type": "row"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "layout": "Main",
+  "name": "ForsideCards"
+}

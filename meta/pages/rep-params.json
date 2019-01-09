@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "type": "content",
+      "container": "main",
+      "components": [
+        {
+          "type": "heading",
+          "name": "pageTitle",
+          "size": "H1",
+          "text": "Rep Params"
+        },
+        {
+          "type": "row",
+          "components": [
+            {
+              "type": "col",
+              "class": "col-md-12",
+              "components": [
+                {
+                  "name": "grid0",
+                  "allowDelete": true,
+                  "allowAdd": true,
+                  "allowFiltering": true,
+                  "allowMultiSorting": false,
+                  "allowPaging": true,
+                  "allowSorting": true,
+                  "events": {
+                    "loadData": [],
+                    "delete": [],
+                    "add": [
+                      {
+                        "path": "add-rep-param",
+                        "type": "popup"
+                      }
+                    ],
+                    "rowSelect": [
+                      {
+                        "parameters": [
+                          {
+                            "name": "ParamId",
+                            "value": "${event.ParamId}"
+                          }
+                        ],
+                        "path": "edit-rep-param",
+                        "type": "popup"
+                      }
+                    ]
+                  },
+                  "title": "",
+                  "columns": [
+                    {
+                      "property": "RepId",
+                      "sortProperty": "Report.Category",
+                      "filterProperty": "Report.Category",
+                      "template": "${data.Report?.Category}",
+                      "title": "Report",
+                      "type": "string"
+                    },
+                    {
+                      "property": "ParamId",
+                      "title": "Param Id",
+                      "type": "integer"
+                    },
+                    {
+                      "property": "ParamSelect",
+                      "title": "Param Select",
+                      "type": "string"
+                    },
+                    {
+                      "property": "RegInit",
+                      "title": "Reg Init",
+                      "type": "string"
+                    },
+                    {
+                      "format": "date-time",
+                      "property": "RegTid",
+                      "template": "${data.RegTid | utcDate}",
+                      "title": "Reg Tid",
+                      "type": "string"
+                    }
+                  ],
+                  "type": "grid",
+                  "emptyText": "No records to display.",
+                  "addText": "Add"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": {
+    "load": []
+  },
+  "name": "Rep Params",
+  "layout": "Main",
+  "access": []
+}

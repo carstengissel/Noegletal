@@ -1,0 +1,94 @@
+{
+  "access": [],
+  "components": [
+    {
+      "components": [
+        {
+          "name": "pageTitle",
+          "size": "H1",
+          "text": "",
+          "type": "heading"
+        },
+        {
+          "components": [
+            {
+              "name": "labelGemNavn",
+              "style": {
+                "width": "50px"
+              },
+              "text": "Navn:",
+              "type": "label"
+            },
+            {
+              "events": {
+                "change": [
+                  {
+                    "condition": "",
+                    "name": "ReportNewName",
+                    "type": "set",
+                    "value": "this.textboxGemReport.value"
+                  }
+                ]
+              },
+              "name": "textboxGemReport",
+              "style": {
+                "width": "236px"
+              },
+              "type": "textbox",
+              "value": "${ReportNewName}"
+            },
+            {
+              "events": {
+                "click": [
+                  {
+                    "condition": "",
+                    "result": "${ReportNewName}",
+                    "type": "close-popup"
+                  }
+                ]
+              },
+              "name": "buttonGem",
+              "style": {
+                "backgroundColor": "#46463c",
+                "marginLeft": "52px",
+                "marginRight": "5px",
+                "marginTop": "30px",
+                "width": "110px"
+              },
+              "text": "Gem",
+              "type": "button"
+            },
+            {
+              "events": {
+                "click": [
+                  {
+                    "type": "close-popup"
+                  }
+                ]
+              },
+              "icon": "",
+              "name": "button0",
+              "style": {
+                "backgroundColor": "#46463c",
+                "width": "110px"
+              },
+              "text": "Fortryd",
+              "type": "button"
+            }
+          ],
+          "name": "panel0",
+          "style": {
+            "height": "150px",
+            "width": "399px"
+          },
+          "text": "",
+          "type": "panel"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "layout": "Main",
+  "name": "Gem Rapport"
+}

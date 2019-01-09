@@ -1,0 +1,48 @@
+{
+  "access": [],
+  "components": [
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "class": "col-md-12 justify-content-center",
+              "components": [
+                {
+                  "content": "<app-powerbi-report></app-powerbi-report>",
+                  "name": "html0",
+                  "type": "html"
+                }
+              ],
+              "name": "col0",
+              "type": "col"
+            }
+          ],
+          "name": "row0",
+          "style": {
+            "width": "100%"
+          },
+          "type": "row"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "events": {
+    "load": [
+      {
+        "name": "types",
+        "type": "set",
+        "value": "[{\n   text: 'Medlemsbestand',\n   reportId: '123bestand'\n }, \n {\n   text: 'Sygestatistik',\n   reportId: '456Syg'\n }]"
+      },
+      {
+        "name": "reportStage",
+        "type": "set",
+        "value": "[{\n   text: 'Editer',\n   value: 'EditMode'\n }, \n {\n   text: 'Vis',\n   value: 'ShowMode'\n },\n {\n   text: 'Fullscreen',\n   value: 'Fullscreen'\n }\n]"
+      }
+    ]
+  },
+  "layout": "Main",
+  "name": "forespoergelse"
+}
